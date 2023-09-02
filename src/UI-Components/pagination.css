@@ -1,0 +1,54 @@
+.button-container {
+    float: right;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+  .visit-Page-Button {
+    margin: 25px 5px 12px 0px;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bolder;
+    border: 2px solid #5ad2ed;
+    border-radius: 50%;
+    text-align: center;
+    color: #4396e8;
+    background-color: white;
+    cursor: pointer;
+  }
+  .visit-Page-Button:hover {
+    color: white;
+    background-color: #4396e8;
+  }
+  .visit-Page-Button.active {
+    background-color: #007bff;
+    color: #fff;
+    transition: 0.3s;
+  }
+  
+  @media (max-width: 347px) {
+    .visit-Page-Button {
+      margin: 25px 5px 0px 0px;
+      width: 25px;
+      height: 25px;
+      font-size: 10px;
+      text-align: center;
+      border-radius: 50%;
+      border: 2px solid #5ad2ed;
+      color: #4396e8;
+      background-color: white;
+      cursor: pointer;
+    }
+  }
+  
+  @media (max-width: 532px) {
+    .button-container {
+      margin: 20px 0px 20px;
+      padding: 7px;
+      background-color: #d0fab1;
+      float: left;
+      border-radius: 28px;
+    }
+  }
+  
